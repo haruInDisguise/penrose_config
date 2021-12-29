@@ -1,0 +1,17 @@
+[package]
+name = "penrose_config"
+path = "src/lib.rs"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "penrose_client"
+path = "src/bin/main.rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+penrose = "0.2.1"
+phf = "0.10"
+
+[features]
